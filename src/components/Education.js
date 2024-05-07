@@ -28,7 +28,7 @@ const Education = () => {
                   <img
                     src={require("../assets/img/images-education1.png")}
                     className="card-img-top rounded-top img-fluid"
-                    style={{ width: "100%", height: "71%" }}
+                    style={{ width: "100%", height: "63%" }}
                     alt="not found"
                   />
                 </div>
@@ -71,7 +71,7 @@ const Education = () => {
                   <img
                     src={require("../assets/img/images-education1.png")}
                     className="card-img-top rounded-top img-fluid"
-                    style={{ width: "100%", height: "71%" }}
+                    style={{ width: "100%", height: "63%" }}
                     alt="Loding Error"
                   />
                 </div>
@@ -114,7 +114,7 @@ const Education = () => {
                   <img
                     src={require("../assets/img/images-education1.png")}
                     className="card-img-top rounded-top img-fluid"
-                    style={{ width: "100%", height: "71%" }}
+                    style={{ width: "100%", height: "63%" }}
                     alt="Loding Error"
                   />
                 </div>
@@ -156,7 +156,7 @@ const Education = () => {
                   <img
                     src={require("../assets/img/images-education1.png")}
                     className="card-img-top rounded-top img-fluid"
-                    style={{ width: "100%", height: "71%" }}
+                    style={{ width: "100%", height: "63%" }}
                     alt="Loding Error"
                   />
                 </div>

@@ -1,5 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import framekart from "../assets/img/framecart.png";
+import itskills from "../assets/img/itskills.png";
 
 const Project = () => {
   let index = 0;
@@ -8,10 +10,7 @@ const Project = () => {
     "https://framekarts.com/home-page",
     "http://www.miracleitskills.com/",
   ];
-  const image = [
-    "http://127.0.0.1:5500/kuldeep/assets/img/framecart.png",
-    "http://127.0.0.1:5500/kuldeep/assets/img/itskills.png",
-  ];
+  const image = [framekart, itskills];
   return (
     <div className="my-5" id="project">
       <div className="heading">

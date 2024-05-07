@@ -4,12 +4,9 @@ const Education = () => {
   return (
     <div className="my-5 md:w-[90%] m-auto w-full ">
       <div id="education" className="section-counter paralax-mf bg-image">
-        <h3
-          className="title-a text-center text-3xl font-serif"
-          style={{ margin: 10 }}
-        >
-          Education
-        </h3>
+      <h5 className="title-left text-3xl font-bold p-3 text-center">
+            Education
+          </h5>
         <div className="row" style={{ width: "95%", margin: "auto" }}>
           <div className="col-sm-6" style={{ marginTop: 50 }}>
             <div className="card h-100">

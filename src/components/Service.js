@@ -32,9 +32,9 @@ const Service = () => {
   return (
     <div className="my-5" id="services">
       <div className="heading">
-        <h1 className="text-center text-3xl font-serif" style={{ margin: 10 }}>
-          Services
-        </h1>
+      <h5 className="title-left text-3xl font-bold p-3 text-center">
+            Services
+          </h5>
       </div>
 
       <div className="content flex flex-wrap gap-5 justify-center p-3 md:p-0">

@@ -14,9 +14,9 @@ const Project = () => {
   return (
     <div className="my-5" id="project">
       <div className="heading">
-        <h1 className="text-center text-3xl font-serif" style={{ margin: 10 }}>
-          Projects
-        </h1>
+      <h5 className="title-left text-3xl font-bold p-3 text-center">
+            Projects
+          </h5>
       </div>
 
       {/* Project Cards */}

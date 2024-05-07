@@ -4,9 +4,9 @@ const Experience = () => {
   return (
     <div className="w-[90%] m-auto my-3 p-3" id="experience">
       <div className="heading">
-        <h1 className="text-2xl font-bold font-serif text-center my-3">
-          Experience
-        </h1>
+      <h5 className="title-left text-3xl font-bold p-3 text-center">
+            Experience
+          </h5>
       </div>
       <h3 className="font-medium text-xl">
         1) Satyakabir E-Solutions (React.js Developer){" "}

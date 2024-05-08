@@ -17,24 +17,27 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative my-5">
+    <div className="relative my-3">
       <div
         id="hero"
         className="hero route bg-image h-[100vh]"
         style={{
           backgroundImage: `url(${hero})`,
           backgroundPosition: "center center",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          objectFit: "cover",
         }}
       >
         <div className="overlay-itro" />
         <div className="hero-content display-table">
           <div className="table-cell">
             <div className="container">
-              <h1 className="hero-title text-white text-3xl md:text-6xl absolute top-[50%] left-0 w-full text-center font-serif"  >
+              <h1 className="hero-title text-white text-3xl md:text-6xl absolute top-[40%] left-0 w-full text-center font-serif"  >
                 I am Kuldeep Mishra
               </h1>
               <p className="hero-subtitle">
-                <span className="typed text-white md:text-6xl text-4xl absolute top-[55%] md:top-[60%] left-0 w-full text-center font-serif" />
+                <span className="typed text-white md:text-6xl text-4xl absolute top-[45%] md:top-[50%] left-0 w-full text-center font-serif" />
               </p>
             </div>
           </div>

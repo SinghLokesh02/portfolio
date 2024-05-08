@@ -95,7 +95,7 @@ const Contact = () => {
                             Feel free to reach out for further discussion or
                             inquiries. I am here to assist you in your projects.
                           </p>
-                          <ul className="list-ico flex flex-col gap-2">
+                          <ul className="list-ico flex flex-col gap-2 my-3">
                             <li>
                               <span className="bi bi-geo-alt" /> MP NAGAR ZONE-2
                               BHOPAL(M.P)
@@ -111,32 +111,32 @@ const Contact = () => {
                           </ul>
                         </div>
                         <div className="socials">
-                          <ul>
+                          <ul className="flex gap-4">
                             <li>
                               <a href="https://api.whatsapp.com/send?phone=9340428832">
                                 <span className="ico-circle">
-                                  <i className="bi bi-whatsapp" />
+                                <i className = "fa-brands fa-whatsapp text-4xl text-green-600 hover:text-green-800  text-center"></i>
                                 </span>
                               </a>
                             </li>
                             <li>
                               <a href="https://www.instagram.com/kuldeepmishra9752?igsh=bm95amhhZTNzNmI4">
                                 <span className="ico-circle">
-                                  <i className="bi bi-instagram" />
+                                <i class="fa-brands fa-instagram text-4xl text-red-600 hover:text-red-800"></i>
                                 </span>
                               </a>
                             </li>
                             <li>
                               <a href="https://x.com/Kuldeep68226108?t=QsLlU9mRrS5ZSRGVKLrmkA&s=09">
                                 <span className="ico-circle">
-                                  <i className="bi bi-twitter" />
+                                <i class="fa-brands fa-twitter text-4xl hover:text-blue-600 text-blue-400"></i>
                                 </span>
                               </a>
                             </li>
                             <li>
                               <a href="https://www.linkedin.com/in/kuldeep-mishra-4201631b6/">
                                 <span className="ico-circle">
-                                  <i className="bi bi-linkedin" />
+                                <i class="fa-brands fa-linkedin text-4xl text-blue-600 hover:text-blue-800"></i>
                                 </span>
                               </a>
                             </li>
